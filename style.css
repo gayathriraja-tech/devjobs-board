@@ -355,3 +355,163 @@ body{
         font-size:18px;
     }
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+.custom-navbar{
+     background-color:#4872a9;
+     padding:12px 0;
+}
+.brand-title{
+    font-size:28px;
+    font-weight:bold;
+    color:#ffffff !important;
+    letter-spacing:2px;
+}
+.nav-link{
+    color: #e6e1e1;
+    font-size:17px;
+    margin-left:10px;
+}
+.nav-link:hover{
+    color:#4cd964;
+}
+.login-style{
+    display:flex;
+}
+.login-btn{
+    padding: 6px 10px;
+    border: 1px solid #ffd369;
+    border-radius: 6px;
+}
+.login-btn:hover {
+    background-color: #ffd369;
+    color: #000;
+}
+.search-box{
+    width:300px;
+}
+@media (max-width:576px){
+    .search-box{
+        width:100%;
+    }
+}
+
+.job-card{
+    background-color:rgb(251, 249, 249);
+    padding:20px;
+    border-radius:10px;
+    border:1px solid rgba(0, 0, 0, 0.321);
+    margin:15px;
+    min-height:300px;
+    min-width:250px;
+}
+@media (min-width:768px){
+    .job-card{
+        min-height:540px;
+        min-width:300px;
+    }
+}
+.job-title{
+    font-size:20px;
+    margin-bottom:6px;
+}
+.company{
+    color:#444;
+    font-size:30px;
+    margin-bottom:20px;
+}
+.location{
+    font-size:17px;
+    margin-bottom:18px;
+    color:#666;
+}
+.experience{
+    margin-bottom:17px;
+    color:#450303;
+}
+.package {
+    font-weight: 600;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+}
+.skills span{
+    font-size:16px;
+    background:#e8f1ff;
+    border-radius:6px;
+    margin-right:10px;
+    padding:8px 12px;
+    margin-bottom:8px;
+   
+}
+.apply-button{
+    margin-top:30px;
+    background-color:#3374f6;
+    color:white;
+    padding:8px 15px;
+    border-radius:10px;
+    border:none;
+    width:75px;
+    height:40px;
+    font-size:15px;
+    cursor:pointer;
+}
+.apply-button:hover{
+    background:#025316d8;
+}
+.cta-section{
+    background:#deedfe;
+    border-radius:10px;
+   
+}
+.cta-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #003566;
+}
+.cta-text{
+    font-size: 16px;
+    color: #3e3e3e;
+}
+.job-btn:hover{
+    background-color:rgb(245, 245, 151);
+    color:#000000;
+    border:2px solid;
+}
+.footer{
+    border-radius:5px;
+}
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.footer-tag{
+  font-size: 14px;
+  color: #a1a7b3;
+}
+.social-icons i {
+  font-size: 22px;
+  padding:20px 10px;
+  cursor: pointer;
+  color: #f7f8fa;
+}
+.footer-policy {
+  font-size: 15px;
+  color: #8c919b;
+  margin-top: 15px;
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #6c7079;
+}
+
