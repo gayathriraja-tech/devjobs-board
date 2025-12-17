@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJobs - Listining Board</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand brand-title" href="#">
+            <i class="bi bi-briefcase-fill"></i>DevJobs
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center">
+            
+            <li class="nav-item">
+            <a class="nav-link" href="#">Find Jobs</a>
+            </li>
+             
+            <li class="nav-item">
+            <a class="nav-link" href="#">Companies</a>
+            </li>
+             
+            <li class="nav-item">
+            <a class="nav-link" href="#">Post a Job</a>
+            </li>
+
+
+            <li class="nav-item ms-lg-3 login-style">
+            <a class="nav-link login-btn" href="#">Login</a>
+            </li>
+
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="search-section">
+       <div class="container">
+         <div class="search-content">
+            <h1 class="search-title">Find Your Dream Job</h1>
+            <p class="search-subtile">Thousand of jobs from top Companies across India</p>
+         </div>
+         <div class="search-wrapper">
+          <div class="search-container">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Job title or keyword" class="search-input">
+            <button class="btn btn-primary pl-2">Search Jobs</button>
+          </div>
+        </div>
+        <div class="popular-search">
+             <span class="tags-label">Popular:</span>
+             <span class="tags">Frontend Developer</span>
+             <span class="tags">React</span>
+             <span class="tags">Python</span>
+             <span class="tags">Data Analyst</span>
+        </div>
+      </div>
+    </div>
+    
+   </header>
+
+    <section class="job-section container mt-4">
+        <div class="section-card">
+            <h1 class="sec-title">Latest Job Opening</h1>
+            <p class="sec-subtitle">Browse through our curated list of opportunities</p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">IN</div>
+                      <div>
+                        <h3 class="job-role">Software Developer</h3>
+                        <p class="company-name">INFOSYS</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Bangalore
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> Fresher
+                        </span>
+                    </div>
+                    <div class="salary">₹3-5 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">MySQl</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">FW</div>
+                      <div>
+                        <h3 class="job-role">Frontend Developer</h3>
+                        <p class="company-name">FRESHWORKS</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Bangalore
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 0-1 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹5-8 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Javascript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">UI Components</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">AM</div>
+                      <div>
+                        <h3 class="job-role">Backend Engineer</h3>
+                        <p class="company-name">AMAZON</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i>Hyderabad
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 0-1 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹8-9 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">NodeJs</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">MangoDB</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">AC</div>
+                      <div>
+                        <h3 class="job-role">Salesforce Administrator</h1>
+                        <p class="company-name">ACCENTURE</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Bangalore
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> Fresher
+                        </span>
+                    </div>
+                    <div class="salary">₹4-6 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Salesforce</span>
+                        <span class="skill-tag">CRM</span>
+                        <span class="skill-tag">Workflow</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">BS</div>
+                      <div>
+                        <h3 class="job-role">UI Designers</h1>
+                        <p class="company-name">BROWSERSTACK</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Chennai
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 0-1 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹6-8 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Wireframes</span>
+                        <span class="skill-tag">Prototyping</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">HCL</div>
+                      <div>
+                        <h3 class="job-role">Cyber Security</h3>
+                        <p class="company-name">HCL TECHNOLOGIES</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i>New Delhi 
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i>1-2 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹5-8 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Threat Analysis</span>
+                        <span class="skill-tag">SIEM</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">YA</div>
+                      <div>
+                        <h3 class="job-role">AI Research Intern</h3>
+                        <p class="company-name">YELLOW.AI</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Bangalore
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> Fresher
+                        </span>
+                    </div>
+                    <div class="salary">₹20,000-35,000/month</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">LLMs</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">IA</div>
+                      <div>
+                        <h3 class="job-role">Business Operaations Manager</h3>
+                        <p class="company-name">INAPP TECHNOLOGIES</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Kochi
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 1-2 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹7-12 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Project Planning</span>
+                        <span class="skill-tag">Data Strategy</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">RP</div>
+                      <div>
+                        <h3 class="job-role">Product Designer</h3>
+                        <p class="company-name">RAZORPAY</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Hyderabad
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 0-2 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹9-12 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">User Testing</span>
+                        <span class="skill-tag">Prototyping</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">BO</div>
+                      <div>
+                        <h3 class="job-role">AI/ML Engineer</h3>
+                        <p class="company-name">BOSCH</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Coimbatore
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 0-1 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹6-12 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Data Modeling</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">ZO</div>
+                      <div>
+                        <h3 class="job-role">Data Analyst</h3>
+                        <p class="company-name">ZOHO</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Chennai
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> Fresher
+                        </span>
+                    </div>
+                    <div class="salary">₹4.5-6 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Power BI</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <div class="company-info">
+                      <div class="company-logo">IM</div>
+                      <div>
+                        <h3 class="job-role">Backend Developer</h3>
+                        <p class="company-name">IMPETUS TECHNOLOGIES</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="job-card-body">
+                    <div class="job-details">
+                        <span class="detail-item">
+                          <i class="bi bi-geo-alt"></i> Indore
+                        </span>
+                        <span class="detail-item">
+                            <i class="bi bi-briefcase"></i> 0-1 Year
+                        </span>
+                    </div>
+                    <div class="salary">₹5-9 LPA</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node Js</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="job-card-footer">
+                    <button class="btn btn-primary mt-2">Apply Now</button>
+                </div>   
+            </div>
+          </div>
+
+          
+        </div>
+        
+
+    </section>
+    <section class="cta-section mt-5 p-5 mb-5 ">
+      <div class="text-center">
+        <h2 class="cta-title">Can't Find What You're looking For?</h2>
+        <p class="cta-text">New jobs are added every day. Create an alert to stay updated!</p>
+        <button class="cta-button">Create Job Alert</button>
+      </div>
+        
+    </section>
+   <footer class=" footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <h3 class="footer-brand"><i class="bi bi-briefcase-fill"></i> DevJobs</h3>
+              <p class="footer-text">Your trusted partner in finding the perfect career opportunity.</p>
+            </div>
+            <div class="col-md-2 mb-3">
+              <h4 class="footer-heading">Job Seekers</h4>
+              <ul class="footer-links">
+                <li><a href="#">Browser Jobs</a></li>
+                <li><a href="#">Career Advice</a></li>
+                <li><a href="#">Resume Tips</a></li>
+              </ul> 
+            </div>
+             <div class="col-md-2 mb-3">
+              <h4 class="footer-heading">Employers</h4>
+              <ul class="footer-links">
+                <li><a href="#">Post a Job</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul> 
+            </div>
+             <div class="col-md-2 mb-3">
+              <h4 class="footer-heading">Company</h4>
+              <ul class="footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul> 
+            </div>
+            <div class="col-md-2 mb-5">
+                <h4 class="footer-heading">Follow Us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2025 DevJobs. All rights reserved. </p>
+
+            </div>
+          </div>
+
+        </div>
+   </footer>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
