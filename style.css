@@ -83,6 +83,11 @@ body{
     max-width:800px;
     margin:auto;
 }
+@media (max-width:768px){
+     .search-wrapper{
+        max-width:600px;
+     }
+}
 .search-container{
     background-color:white;
     padding:10px 10px;
@@ -157,7 +162,13 @@ body{
     padding:20px;
     border-radius:10px;
     box-shadow:0 4px 15px rgba(0, 0, 0, 0.427);
-    margin-bottom:45px;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    
+}
+.job-card-header{
+    margin-bottom:16px;
 }
 
 .company-info{
